@@ -1,0 +1,27 @@
+{ "Users": [
+    { "id": 1,
+     "employee":
+         { "department": "tech",
+           "name": "Mark",
+           "project": [
+               {"id": 2,
+                "name": "Test",
+                "status": "ok",
+                "mistakes": [] }
+                      ]
+         }
+    },
+    { "id": 2,
+     "employee":
+         { "department": "tech",
+           "name": "Alex",
+           "project": [
+               {"id": 3,
+                "name": "parser",
+                "status": "filed",
+                "mistakes": [ 404, "IO error" ] }
+                       ]
+         }
+    }
+]
+}
